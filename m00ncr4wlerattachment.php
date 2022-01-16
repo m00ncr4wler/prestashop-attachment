@@ -17,7 +17,7 @@ class m00ncr4wlerAttachment extends Module
 
         $this->displayName = $this->l('Attachment settings.');
         $this->description = $this->l('Attachment settings.');
-        //$this->confirmUninstall = $this->l('Are you sure you want to delete your details?');
+        $this->confirmUninstall = $this->l('Are you sure you want to delete your details?');
         $this->ps_versions_compliancy = array('min' => '1.6', 'max' => _PS_VERSION_);
     }
 
